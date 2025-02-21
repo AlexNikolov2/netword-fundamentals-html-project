@@ -6,15 +6,17 @@
     <title>GP - Песни по поръчка</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body bgcolor="cyan">
     <header>
       <div class="logo">
         <p>GP BABY - Песни по поръчка</p>
       </div>
       <nav>
-        <li><a href="">Начало</a></li>
-        <li><a href="">Участие</a></li>
-        <li><a href="" class="action-btn">Поръчай песен</a></li>
+        <ul>
+          <li><a href="">Начало</a></li>
+          <li><a href="">Участие</a></li>
+          <li><a href="" class="action-btn">Поръчай песен</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -22,35 +24,48 @@
         <h1>Гошо от Почивка</h1>
         <p>Здравейте във фен-страницата на Гошо от Почивка!</p>
       </section>
+      <hr size="30" width="500px" bgcolor="black" color="black" align="right" />
       <section class="newest-song">
         <audio controls autoplay>
-          <source src="horse.ogg" type="audio/ogg" />
-          <source src="horse.mp3" type="audio/mpeg" />
+          <source src="gp_chukam.mp3" type="audio/mpeg" />
         </audio>
       </section>
       <section class="concerts-wrap">
         <h2>Участия</h2>
         <section class="concerts">
           <section class="concert">
-            <p>Малага</p>
+            <p align=""><b>Малага</b></p>
           </section>
           <section class="concert">
-            <p>Ибиза</p>
+            <p><b>Ибиза</b></p>
           </section>
           <section class="concert">
-            <p>София</p>
+            <p><b>София</b></p>
           </section>
           <section class="concert">
-            <p>Бургас</p>
+            <p><b>Бургас</b></p>
           </section>
           <section class="concert">
-            <p>Майорка</p>
+            <p><b>Майорка</b></p>
           </section>
           <section class="concert">
-            <p>Петрич</p>
+            <p><i>П<sub>е</sub>тр<sup>и</sup>ч</i></p>
           </section>
         </section>
       </section>
+      <section class="order-song-wrap">
+        <h2>Поръчай си песен</h2>
+        <section class="pricing-wrap">
+          <section class="pricing"></section>
+          <section class="pricing"></section>
+        </section>
+      </section>
+      <form action="" class="order-song-form">
+        <section class="song-title">
+          <label for="song-title">Заглавие на песента</label>
+          <input type="text" name="" id="" placeholder="Напиши заглавие" />
+        </section>
+      </form>
     </main>
   </body>
 </html>
