@@ -137,3 +137,65 @@ td {
 i {
   color: #bbb;
 }
+.order-song-form {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.order-song-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.order-song-form section {
+  margin-bottom: 15px;
+}
+
+.order-song-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.order-song-form input,
+.order-song-form textarea,
+.order-song-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  background: #222;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.order-song-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+.order-song-form select {
+  cursor: pointer;
+}
+
+.order-btn {
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.order-btn:hover {
+  background: #ce994c;
+  color: white;
+}
