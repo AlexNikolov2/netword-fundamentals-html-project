@@ -77,7 +77,7 @@ p {
 
 .concerts ul {
   display: flex;
-  max-width: 750px;
+  max-width: 700px;
   flex-wrap: wrap;
   margin: auto;
   gap: 15px;
